@@ -1,0 +1,24 @@
+/*
+  Собственные стили КР №2.
+  Подключаются после Bootstrap, поэтому могут переопределять его правила.
+  Основное оформление делается классами Bootstrap, здесь только минимальные правки.
+*/
+
+body {
+  min-height: 100vh;
+}
+
+/* Временный промо-блок вместо изображения */
+.placeholder-box {
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Градиентный фон промо-баннера в hero-блоке */
+.hero-banner {
+  color: #ffffff;
+  background: linear-gradient(135deg, #3346c9, #6f80ff);
+}
